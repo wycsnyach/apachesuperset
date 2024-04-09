@@ -1,4 +1,5 @@
-<p align="center"><img src="images/logo.png"></p>
+<p align="center"><img src="images/logo.png" width="500px" height="300px"></p>
+
 # Installing Superset from Scratch
 ## Superset installation guide
 - Step-by-step instructions to install Superset for data visualization and business intelligence.
@@ -141,6 +142,6 @@ If everything worked, you should be able to navigate to hostname:port in your br
 ## Sample Dashboard.
 
 <p><img src="images/Sample_1.png"></p> <br>
-<p><img src="images/Sample_2.png"></p>
+<p><img src="images/sample_2.png"></p>
 
-# ENJOY
+# <p align="center"> ENJOY </p>
