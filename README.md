@@ -144,4 +144,29 @@ If everything worked, you should be able to navigate to hostname:port in your br
 <p><img src="images/Sample_1.png"></p> <br>
 <p><img src="images/sample_2.png"></p>
 
+### Changing the Logo
+
+    Navigate to the Directory that has the current logo image.
+
+    cd /srv/Superset/venv/lib/python3.9/site-packages/superset/static/assets/images
+
+    Rename the current superset default Logo i.e
+
+    mv superset-logo-horiz.png oldsuperset-logo-horiz.png
+
+### What database engine can I use as a backend for Superset?
+
+    Superset is tested using MySQL, PostgreSQL, and SQLite backends. It’s recommended you install Superset on one of these database servers for production. Installation on other OLTP databases may work but isn’t tested.
+
+### Is there a way to force the dashboard to use specific colors?
+
+    It is possible on a per-dashboard basis by providing a mapping of labels to colors in the JSON Metadata attribute using the label_colors key.
+
+    {
+    "label_colors": {
+        "Girls": "#FF69B4",
+        "Boys": "#ADD8E6"
+    }}
+
+
 # <p align="center"> ENJOY </p>
